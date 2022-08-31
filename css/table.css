@@ -10,7 +10,7 @@ table {
     color: #c5c3c3;
 }
 
-.table__caption{
+.table__caption {
     margin-top: 15px;
 }
 
@@ -62,6 +62,6 @@ table {
     box-shadow: 0px 0px 5px 2px #FFFFFF;
 }
 
-.table__buttonDiv {
+.table__buttonContainer {
     text-align: center;
 }

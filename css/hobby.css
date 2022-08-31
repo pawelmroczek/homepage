@@ -3,6 +3,16 @@
     text-align: center;
 }
 
+.hobby__paragraph {
+    padding: 10px;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.hobby--light {
+    color: whitesmoke
+}
+
 .musicSection {
     background-color: #282424;
     padding: 0px 15px 10px;
@@ -11,7 +21,13 @@
     box-shadow: 0px 5px 15px 2px #D3D3D3;
 }
 
-.musicSection--dark{
+.musicSection__paragraph {
+    padding: 10px;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.musicSection--dark {
     box-shadow: 0px 5px 15px 2px #181818;
 }
 
@@ -31,6 +47,16 @@
     padding-top: 10px;
 }
 
+.photographySection__paragraph {
+    padding: 10px;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.photographySection__paragraph--white {
+    color: whitesmoke;
+}
+
 .photographySection__photo {
     display: block;
     margin: 0 auto;
@@ -39,7 +65,7 @@
     border: 30px #cacaca solid;
 }
 
-.photographySection__photo--dark{
+.photographySection__photo--dark {
     border: 30px gray solid;
     box-shadow: 0px 5px 15px 2px #181818;
 }
@@ -51,7 +77,8 @@
     margin: 5px;
     box-shadow: 0px 5px 15px 2px #D3D3D3;
 }
-.airsoftSection--dark{
+
+.airsoftSection--dark {
     box-shadow: 0px 5px 15px 2px #181818;
 }
 
@@ -59,12 +86,16 @@
     font-size: 35px;
     padding-top: 10px;
 }
-
-
 .airsoftSection__text {
     box-shadow: 0px 5px 15px 1px #030303;
     background-color: #4b4a49;
     padding: 10px;
+}
+
+.airsoftSection__paragraph {
+    padding: 10px;
+    font-size: 17px;
+    line-height: 1.7;
 }
 
 .airsoftSection__photo {
@@ -76,5 +107,3 @@
     border-left-width: 50px;
     border-right-width: 50px;
 }
-
-

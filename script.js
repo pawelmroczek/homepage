@@ -1,4 +1,4 @@
-console.log("Hello world");
+   console.log("Hello world");
 
 let changeTheme__button = document.querySelector(".js-changeTheme__button");
 let body__background = document.querySelector(".js-body__background");
@@ -33,9 +33,9 @@ changeTheme__button.addEventListener("click", () => {
     navigation__linkPhotography.classList.toggle("navigation__link--light");
     navigation__linkAirsoft.classList.toggle("navigation__link--light");
     aboutMe.classList.toggle("aboutMe--dark");
-    hobby.classList.toggle("text--white");
+    hobby.classList.toggle("hobby--light");
     musicSection.classList.toggle("musicSection--dark");
-    photographySection.classList.toggle("text--white");
+    photographySection.classList.toggle("photographySection__paragraph--white");
     photographySection__yardPhoto.classList.toggle("photographySection__photo--dark");
     photographySection__wheatPhoto.classList.toggle("photographySection__photo--dark");
     photographySection__canalPhoto.classList.toggle("photographySection__photo--dark");

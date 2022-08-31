@@ -18,7 +18,12 @@
 
 }
 
-.aboutMe--dark{
+.aboutMe--dark {
     box-shadow: 0px 5px 15px 2px #181818;
 }
 
+.aboutMe__paragraph {
+    padding: 10px;
+    font-size: 17px;
+    line-height: 1.7;
+}

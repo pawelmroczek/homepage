@@ -13,7 +13,7 @@ html {
     font-family: 'Lato', sans-serif;
 }
 
-.content {
+.main {
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -34,8 +34,4 @@ html {
 
 .body__background--dark {
     background-color: #4b4a49;
-}
-
-.text--white {
-    color: whitesmoke;
 }
