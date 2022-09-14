@@ -1,46 +1,43 @@
-.header{
-    padding: 40px 25px 5px;
-    max-width: 1100px;
-    margin: 0 auto;
+.header {
+  padding: 40px 25px 5px;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .header__background {
-    background-color: #282424;
-    box-shadow: 0px 5px 15px 2px #D3D3D3;
+  background-color: #282424;
+  box-shadow: 0px 5px 15px 2px #d3d3d3;
 }
 
 .header__heading {
-    color: white;
-    font-weight: 300;
+  color: white;
+  font-weight: 300;
 }
 
 .header__heading--welcome {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .header__buttonThemeDiv {
-    text-align: right;
+  text-align: right;
 }
 
 .header__buttonTheme {
-    font-size: 15px;
-    background: none;
-    color: white;
-    border: 2px solid white;
-    padding: 5px;
-    border-radius: 5px;
-    margin: 5px;
+  font-size: 15px;
+  background: none;
+  color: white;
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
 }
 
 .header__buttonTheme:hover {
-    background-color: rgba(255, 255, 255, 0.74);
-    color: black;
-    box-shadow: 0px 0px 30px 8px #FFFFFF;
-
+  background-color: rgba(255, 255, 255, 0.74);
+  color: black;
+  box-shadow: 0px 0px 30px 8px #ffffff;
 }
 
-.header__boxShadow--dark{
-    box-shadow: 0px 5px 15px 2px #181818;
+.header__boxShadow--dark {
+  box-shadow: 0px 5px 15px 2px #181818;
 }
-
-

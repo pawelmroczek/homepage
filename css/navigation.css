@@ -1,26 +1,26 @@
 .navigation {
-    max-width: 1000px;
-    margin: 0 auto;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .navigation__navItem {
-    list-style-type: none;
-    padding: 5px;
-    font-size: 20px;
+  list-style-type: none;
+  padding: 5px;
+  font-size: 20px;
 }
 
 .navigation__link {
-    color: #2e2d2d
+  color: #2e2d2d;
 }
 
 .navigation__link:hover {
-    color: crimson;
+  color: crimson;
 }
 
 .navigation__link--light {
-    color: #c9c9c9;
+  color: #c9c9c9;
 }
 
 .navigation__link--light.navigation__link--light:hover {
-    color: rgb(233, 60, 44);
+  color: rgb(233, 60, 44);
 }

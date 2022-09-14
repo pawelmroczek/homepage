@@ -1,109 +1,109 @@
 .hobby__header {
-    font-size: 50px;
-    text-align: center;
+  font-size: 50px;
+  text-align: center;
 }
 
 .hobby__paragraph {
-    padding: 10px;
-    font-size: 17px;
-    line-height: 1.7;
+  padding: 10px;
+  font-size: 17px;
+  line-height: 1.7;
 }
 
 .hobby--light {
-    color: whitesmoke
+  color: whitesmoke;
 }
 
 .musicSection {
-    background-color: #282424;
-    padding: 0px 15px 10px;
-    color: white;
-    margin: 5px;
-    box-shadow: 0px 5px 15px 2px #D3D3D3;
+  background-color: #282424;
+  padding: 0px 15px 10px;
+  color: white;
+  margin: 5px;
+  box-shadow: 0px 5px 15px 2px #d3d3d3;
 }
 
 .musicSection__paragraph {
-    padding: 10px;
-    font-size: 17px;
-    line-height: 1.7;
+  padding: 10px;
+  font-size: 17px;
+  line-height: 1.7;
 }
 
 .musicSection--dark {
-    box-shadow: 0px 5px 15px 2px #181818;
+  box-shadow: 0px 5px 15px 2px #181818;
 }
 
 .musicSection__header {
-    font-size: 35px;
-    padding-top: 10px;
+  font-size: 35px;
+  padding-top: 10px;
 }
 
 .musicSection__text {
-    box-shadow: 0px 5px 15px 1px #030303;
-    background-color: #4b4a49;
-    padding: 10px;
+  box-shadow: 0px 5px 15px 1px #030303;
+  background-color: #4b4a49;
+  padding: 10px;
 }
 
 .photographySection__header {
-    font-size: 35px;
-    padding-top: 10px;
+  font-size: 35px;
+  padding-top: 10px;
 }
 
 .photographySection__paragraph {
-    padding: 10px;
-    font-size: 17px;
-    line-height: 1.7;
+  padding: 10px;
+  font-size: 17px;
+  line-height: 1.7;
 }
 
 .photographySection__paragraph--white {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 
 .photographySection__photo {
-    display: block;
-    margin: 0 auto;
-    width: 70%;
-    box-shadow: 0px 5px 15px 2px #D3D3D3;
-    border: 30px #cacaca solid;
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  box-shadow: 0px 5px 15px 2px #d3d3d3;
+  border: 30px #cacaca solid;
 }
 
 .photographySection__photo--dark {
-    border: 30px gray solid;
-    box-shadow: 0px 5px 15px 2px #181818;
+  border: 30px gray solid;
+  box-shadow: 0px 5px 15px 2px #181818;
 }
 
 .airsoftSection {
-    background-color: #282424;
-    padding: 0px 15px 10px;
-    color: white;
-    margin: 5px;
-    box-shadow: 0px 5px 15px 2px #D3D3D3;
+  background-color: #282424;
+  padding: 0px 15px 10px;
+  color: white;
+  margin: 5px;
+  box-shadow: 0px 5px 15px 2px #d3d3d3;
 }
 
 .airsoftSection--dark {
-    box-shadow: 0px 5px 15px 2px #181818;
+  box-shadow: 0px 5px 15px 2px #181818;
 }
 
 .airsoftSection__header {
-    font-size: 35px;
-    padding-top: 10px;
+  font-size: 35px;
+  padding-top: 10px;
 }
 .airsoftSection__text {
-    box-shadow: 0px 5px 15px 1px #030303;
-    background-color: #4b4a49;
-    padding: 10px;
+  box-shadow: 0px 5px 15px 1px #030303;
+  background-color: #4b4a49;
+  padding: 10px;
 }
 
 .airsoftSection__paragraph {
-    padding: 10px;
-    font-size: 17px;
-    line-height: 1.7;
+  padding: 10px;
+  font-size: 17px;
+  line-height: 1.7;
 }
 
 .airsoftSection__photo {
-    width: 70%;
-    display: block;
-    margin: 0 auto;
-    border-style: solid;
-    border-color: #181818;
-    border-left-width: 50px;
-    border-right-width: 50px;
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  border-style: solid;
+  border-color: #181818;
+  border-left-width: 50px;
+  border-right-width: 50px;
 }

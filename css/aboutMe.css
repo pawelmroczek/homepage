@@ -1,29 +1,28 @@
 .aboutMe {
-    background-color: #e8e4e4;
-    width: 95%;
-    margin: 0 auto;
-    padding-left: 10px;
-    box-shadow: 0px 5px 15px 2px #D3D3D3;
+  background-color: #e8e4e4;
+  width: 95%;
+  margin: 0 auto;
+  padding-left: 10px;
+  box-shadow: 0px 5px 15px 2px #d3d3d3;
 }
 
 .aboutMe__header {
-    font-size: 40px;
-    padding: 10px 5px 0px;
+  font-size: 40px;
+  padding: 10px 5px 0px;
 }
 
 .aboutMe__photo {
-    border: 30px solid #cacaca;
-    margin: 0 10px;
-    box-shadow: 0px 5px 15px 2px #D3D3D3;
-
+  border: 30px solid #cacaca;
+  margin: 0 10px;
+  box-shadow: 0px 5px 15px 2px #d3d3d3;
 }
 
 .aboutMe--dark {
-    box-shadow: 0px 5px 15px 2px #181818;
+  box-shadow: 0px 5px 15px 2px #181818;
 }
 
 .aboutMe__paragraph {
-    padding: 10px;
-    font-size: 17px;
-    line-height: 1.7;
+  padding: 10px;
+  font-size: 17px;
+  line-height: 1.7;
 }
