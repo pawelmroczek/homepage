@@ -8,3 +8,5 @@
 
 This page shortly describes my life and some of my hobby
 
+#### Screenshot of my page:
+![ss of my page](images/Zrzut%20ekranu%202022-09-14%20o%2013.21.55.png)
