@@ -1,183 +1,249 @@
 <!DOCTYPE html>
 <html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Paweł Mroczek- strona o mnie " />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://pawelmroczek.github.io/homepage/"
+    />
+    <meta
+      proprty="og:description"
+      content="Na stronie znajdziesz mój krótki życioris oraz dokładniejsze informacje o moich hobby"
+    />
+    <meta propery="og:image" content="images/ogimages - homepage.png" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Strona o mnie</title>
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/header.css" rel="stylesheet">
-    <link href="css/navigation.css" rel="stylesheet">
-    <link href="css/aboutMe.css" rel="stylesheet">
-    <link href="css/hobby.css" rel="stylesheet">
-    <link href="css/table.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/header.css" rel="stylesheet" />
+    <link href="css/navigation.css" rel="stylesheet" />
+    <link href="css/aboutMe.css" rel="stylesheet" />
+    <link href="css/hobby.css" rel="stylesheet" />
+    <link href="css/table.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="images/homepage-icon.png" />
     <script defer src="script.js" type="text/javascript"></script>
-</head>
+  </head>
 
-<body class="body js-body__background">
+  <body class="body js-body__background">
     <div class="header__background js-header__background">
-        <header class="header">
-            <h1 class="header__heading">
-                Cześć,<br>
-                Miło mi <span class="header__heading header__heading--welcome">Ciebie</span> poznać!
-            </h1>
-            <div class="header__buttonThemeDiv">
-                <button class="header__buttonTheme js-changeTheme__button">Zmień motyw na ciemny 🌙</button>
-            </div>
-        </header>
+      <header class="header">
+        <h1 class="header__heading">
+          Cześć,<br />
+          Miło mi
+          <span class="header__heading header__heading--welcome">Ciebie</span>
+          poznać!
+        </h1>
+        <div class="header__buttonThemeDiv">
+          <button class="header__buttonTheme js-changeTheme__button">
+            Zmień motyw na ciemny 🌙
+          </button>
+        </div>
+      </header>
     </div>
     <nav class="navigation">
-        <ul>
-            <li class="navigation__navItem"><a class="navigation__link  js-navigation__linkAboutMe" href="#o-mnie"> O
-                    mnie</a></li>
-            <li class="navigation__navItem"><a class="navigation__link  js-navigation__linkHobby"
-                    href="#zainteresowania"> Zainteresowania</a></li>
-            <li class="navigation__navItem"> <a class="navigation__link js-navigation__linkMusic"
-                    href="#muzyka">Muzyka</a></li>
-            <li class="navigation__navItem"><a class="navigation__link js-navigation__linkPhotography"
-                    href="#fotografia">Fotografia</a> </li>
-            <li class="navigation__navItem"><a class="navigation__link js-navigation__linkAirsoft"
-                    href="#airsoft">Airsoft</a> </li>
-        </ul>
+      <ul>
+        <li class="navigation__navItem">
+          <a class="navigation__link js-navigation__linkAboutMe" href="#o-mnie">
+            O mnie</a
+          >
+        </li>
+        <li class="navigation__navItem">
+          <a
+            class="navigation__link js-navigation__linkHobby"
+            href="#zainteresowania"
+          >
+            Zainteresowania</a
+          >
+        </li>
+        <li class="navigation__navItem">
+          <a class="navigation__link js-navigation__linkMusic" href="#muzyka"
+            >Muzyka</a
+          >
+        </li>
+        <li class="navigation__navItem">
+          <a
+            class="navigation__link js-navigation__linkPhotography"
+            href="#fotografia"
+            >Fotografia</a
+          >
+        </li>
+        <li class="navigation__navItem">
+          <a class="navigation__link js-navigation__linkAirsoft" href="#airsoft"
+            >Airsoft</a
+          >
+        </li>
+      </ul>
     </nav>
     <main class="main">
-        <section class="aboutMe js-aboutMe" id="o-mnie">
-            <h2 class="aboutMe__header">O mnie</h2>
-            <div>
-                <img class="aboutMe__photo" width="250px"
-                    src="https://i.ibb.co/PwSNgnd/D6-A015-AC-4197-479-E-9-D64-3-CE5-F02-E733-B.jpg" alt="Paweł Mroczek">
-                <img class="aboutMe__photo" width="251px"
-                    src="https://i.ibb.co/CnwkV3V/Zrzut-ekranu-2022-06-14-231228.jpg" alt="Paweł Mroczek">
-                <img class="aboutMe__photo" width="367px"
-                    src="https://i.ibb.co/hK0DXQJ/Zrzut-ekranu-2022-06-14-231320.jpg" alt="Paweł Mroczek">
-            </div>
-            <p class="aboutMe__paragraph">
-                Mam na imię <b> Paweł</b> mam 19 lat i bardzo miło mi Ciebie poznać! Jestem z Bydgoszczy i tu skończyłem
-                szkołe na profilu <em>technik teleinformatyk</em>. Mimo, że szkoła nie należała do najłatwiejszych, to
-                ja
-                wciąż
-                pragnąłem
-                wiedzieć więcej i więcej. Dlatego po ukończeniu wszystkich dodatkowych kursów w szkole, trafiłem tutaj
-                i
-                wiem, że była to najlepsza decyzja jaką mogłem podjąć.
+      <section class="aboutMe js-aboutMe" id="o-mnie">
+        <h2 class="aboutMe__header">O mnie</h2>
+        <div>
+          <img
+            class="aboutMe__photo"
+            width="250px"
+            src="https://i.ibb.co/PwSNgnd/D6-A015-AC-4197-479-E-9-D64-3-CE5-F02-E733-B.jpg"
+            alt="Paweł Mroczek"
+          />
+          <img
+            class="aboutMe__photo"
+            width="251px"
+            src="https://i.ibb.co/CnwkV3V/Zrzut-ekranu-2022-06-14-231228.jpg"
+            alt="Paweł Mroczek"
+          />
+          <img
+            class="aboutMe__photo"
+            width="367px"
+            src="https://i.ibb.co/hK0DXQJ/Zrzut-ekranu-2022-06-14-231320.jpg"
+            alt="Paweł Mroczek"
+          />
+        </div>
+        <p class="aboutMe__paragraph">
+          Mam na imię <b> Paweł</b> mam 19 lat i bardzo miło mi Ciebie poznać!
+          Jestem z Bydgoszczy i tu skończyłem szkołe na profilu
+          <em>technik teleinformatyk</em>. Mimo, że szkoła nie należała do
+          najłatwiejszych, to ja wciąż pragnąłem wiedzieć więcej i więcej.
+          Dlatego po ukończeniu wszystkich dodatkowych kursów w szkole, trafiłem
+          tutaj i wiem, że była to najlepsza decyzja jaką mogłem podjąć.
+        </p>
+      </section>
+      <section id="zainteresowania">
+        <div class="js-hobby">
+          <h2 class="hobby__header">Zainteresowania</h2>
+          <p class="hobby__paragraph">
+            Mam wiele zainteresowań, bo uważam,<i
+              >że w życiu należy spróbować wszystkiego.</i
+            >
+            Jednak hobby, które mnie nie opuściło i towarzyszy mi w złych i
+            dobrych chwilach to fotografia oraz muzyka. Moim ulubionym twórcą
+            jest TOOL ,ale słucham też wielu innych wykonawców. Interesuje się
+            również Airsoftem i ogólnie tematyką wojskową.
+          </p>
+        </div>
+        <section class="musicSection js-musicSection" id="muzyka">
+          <h3 class="musicSection__header">Muzyka</h3>
+          <div class="musicSection__text">
+            <p class="musicSection__paragraph">
+              Muzyką interesuje się od dziecka, od gry na flecie po grę na
+              gitarze. Słucham róznych gatunków , ale moimi ulubionymi są rock i
+              metal. Słuchanie muzyki jest obowiązkowym elementem każdego mojego
+              dnia i towarzyszy mi w wielu czynnościach (również podczas pisania
+              tej strony)
             </p>
-        </section>
-        <section id="zainteresowania">
-            <div class="js-hobby">
-                <h2 class="hobby__header">Zainteresowania</h2>
-                <p class="hobby__paragraph">
-                    Mam wiele zainteresowań, bo uważam,<i>że w życiu należy spróbować wszystkiego.</i> Jednak hobby,
-                    które
-                    mnie
-                    nie opuściło i towarzyszy mi w złych i dobrych chwilach to fotografia oraz muzyka. Moim ulubionym
-                    twórcą
-                    jest TOOL ,ale słucham też wielu innych wykonawców. Interesuje się również Airsoftem i ogólnie
-                    tematyką
-                    wojskową.
-                </p>
+            <div class="table__contener">
+              <table class="table">
+                <caption class="table__caption">
+                  Moje ulubione utwory
+                </caption>
+                <tr>
+                  <th class="table__header" scope="col">Nazwa utworu</th>
+                  <th class="table__header" scope="col">Wykonawca</th>
+                  <th class="table__header" scope="col">Album</th>
+                  <th class="table__header js-table__header" scope="col">
+                    Data wydania
+                  </th>
+                </tr>
+                <tr class="table__row">
+                  <td class="table__item">Invincible</td>
+                  <td class="table__item" rowspan="2">TOOL</td>
+                  <td class="table__item">Fear Inoculum</td>
+                  <td class="table__item js-table__Invincible">2019</td>
+                </tr>
+                <tr class="table__row">
+                  <td class="table__item">Vicarious</td>
+                  <td class="table__item">10,000 Days</td>
+                  <td class="table__item js-table__Vicarious">2006</td>
+                </tr>
+                <tr class="table__row">
+                  <td class="table__item">Us and Them</td>
+                  <td class="table__item">Pink Floyd</td>
+                  <td class="table__item">The Dark Side of the Moon</td>
+                  <td class="table__item js-table__UsAndThem">1973</td>
+                </tr>
+                <tr class="table__row">
+                  <td class="table__item">Trójkąty i kwadraty</td>
+                  <td class="table__item">Dawid Podsiadło</td>
+                  <td class="table__item">Comfort and Happiness</td>
+                  <td class="table__item js-table__TrójkątyIKwadrty">2013</td>
+                </tr>
+                <tr class="table__row">
+                  <td class="table__item">Dance With Somebody</td>
+                  <td class="table__item">Mando Diao</td>
+                  <td class="table__item">Give Me Fire</td>
+                  <td class="table__item js-table__DanceWithSomebody">2009</td>
+                </tr>
+              </table>
             </div>
-            <section class="musicSection js-musicSection" id="muzyka">
-                <h3 class="musicSection__header">Muzyka</h3>
-                <div class="musicSection__text">
-                    <p class="musicSection__paragraph">
-                        Muzyką interesuje się od dziecka, od gry na flecie po grę na gitarze. Słucham róznych gatunków
-                        , ale moimi ulubionymi są rock i metal. Słuchanie muzyki jest obowiązkowym
-                        elementem
-                        każdego mojego dnia i towarzyszy mi w wielu czynnościach (również podczas pisania tej strony)
-                    </p>
-                    <div class="table__contener">
-                        <table class="table">
-                            <caption class="table__caption">Moje ulubione utwory</caption>
-                            <tr>
-                                <th class="table__header" scope="col">Nazwa utworu</th>
-                                <th class="table__header" scope="col">Wykonawca</th>
-                                <th class="table__header" scope="col">Album</th>
-                                <th class="table__header js-table__header" scope="col">Data wydania</th>
-                            </tr>
-                            <tr class="table__row">
-                                <td class="table__item">Invincible</td>
-                                <td class="table__item" rowspan="2">TOOL</td>
-                                <td class="table__item">Fear Inoculum</td>
-                                <td class="table__item js-table__Invincible">2019</td>
-                            </tr>
-                            <tr class="table__row">
-                                <td class="table__item">Vicarious</td>
-                                <td class="table__item">10,000 Days</td>
-                                <td class="table__item js-table__Vicarious">2006 </td>
-                            </tr>
-                            <tr class="table__row">
-                                <td class="table__item">Us and Them</td>
-                                <td class="table__item">Pink Floyd</td>
-                                <td class="table__item">The Dark Side of the Moon</td>
-                                <td class="table__item js-table__UsAndThem">1973</td>
-                            </tr>
-                            <tr class="table__row">
-                                <td class="table__item">Trójkąty i kwadraty</td>
-                                <td class="table__item">Dawid Podsiadło</td>
-                                <td class="table__item">Comfort and Happiness</td>
-                                <td class="table__item js-table__TrójkątyIKwadrty">2013</td>
-                            </tr>
-                            <tr class="table__row">
-                                <td class="table__item"> Dance With Somebody</td>
-                                <td class="table__item">Mando Diao</td>
-                                <td class="table__item">Give Me Fire</td>
-                                <td class="table__item js-table__DanceWithSomebody">2009</td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="table__buttonContainer">
-                        <button class="table__button js-table__button">Pokaż gatunek muzyczny</button>
-                    </div>
-                </div>
-
-
-            </section>
-            <section class="photographySection js-photographySection" id="fotografia">
-                <h3 class="photographySection__header">Fotografia</h3>
-                <p class="photographySection__paragraph">
-                    Fotografią interesuję się amatorsko, jest to bardziej chęć ukazania piękna konkretnej chwili niż
-                    profesjonalne podejście do sprawy. Mimo, że nie jest to hobby, którego trzymam się kurczowo to
-                    powraca ono do
-                    mnie
-                    jak boomerang i nawet w zdjęciach zrobionych telefonem staram się zachować podstawowe zasady
-                    fotografii.
-                </p>
-                <hr>
-                <p class="photographySection__paragraph">
-                    Przez matury trochę zaniedbałem tę pasję, ale tu jest kilka zdjęć zrobionych przez mnie.
-                </p>
-
-                <img class="photographySection__photo   js-photographySection__photo--yardPhoto"
-                    src="https://i.ibb.co/KsXQW4t/EEA15794-C62-B-4-F29-BB97-66-D29-A251375.jpg"
-                    alt="Zdjęcie z rynku w Wenecji"><br>
-                <img class="photographySection__photo js-photographySection__photo--wheatPhoto"
-                    src="https://i.ibb.co/df5Vvgr/B884-FD3-B-FDE1-4152-81-AE-FF6-A401-D3-BC3.jpg"
-                    alt="Zdjęcie pszenicy"><br>
-                <img class="photographySection__photo js-photographySection__photo--canalPhoto"
-                    src="https://i.ibb.co/1zGC9NH/09-BE0546-A491-44-AF-A0-D1-AC6-CB061-C479.jpg"
-                    alt="Zdjęcie kanału w Wenecji">
-            </section>
-            <section class="airsoftSection js-airsoftSection" id="airsoft">
-                <h3 class="airsoftSection__header">Airsoft</h3>
-                <div class="airsoftSection__text">
-                    <p class="airsoftSection__paragraph">
-                        Moja przygoda z Airsoftem zaczęła się od wyjazdu na kolonie przygodowe, gdzie pierwszy raz
-                        miałem styczność z tą grą. Wówczas bardzo mi się spodobała i szybko stała się moją
-                        co niedzielną aktywnością.
-                    </p>
-                    <img class="airsoftSection__photo"
-                        src="https://i.ibb.co/9nFv1xc/9578-AB4-E-B84-E-405-A-A475-BC115-A2-D10-C6.jpg" alt="Airsoft">
-                </div>
-            </section>
+            <div class="table__buttonContainer">
+              <button class="table__button js-table__button">
+                Pokaż gatunek muzyczny
+              </button>
+            </div>
+          </div>
         </section>
+        <section
+          class="photographySection js-photographySection"
+          id="fotografia"
+        >
+          <h3 class="photographySection__header">Fotografia</h3>
+          <p class="photographySection__paragraph">
+            Fotografią interesuję się amatorsko, jest to bardziej chęć ukazania
+            piękna konkretnej chwili niż profesjonalne podejście do sprawy.
+            Mimo, że nie jest to hobby, którego trzymam się kurczowo to powraca
+            ono do mnie jak boomerang i nawet w zdjęciach zrobionych telefonem
+            staram się zachować podstawowe zasady fotografii.
+          </p>
+          <hr />
+          <p class="photographySection__paragraph">
+            Przez matury trochę zaniedbałem tę pasję, ale tu jest kilka zdjęć
+            zrobionych przez mnie.
+          </p>
+
+          <img
+            class="photographySection__photo js-photographySection__photo--yardPhoto"
+            src="https://i.ibb.co/KsXQW4t/EEA15794-C62-B-4-F29-BB97-66-D29-A251375.jpg"
+            alt="Zdjęcie z rynku w Wenecji"
+          /><br />
+          <img
+            class="photographySection__photo js-photographySection__photo--wheatPhoto"
+            src="https://i.ibb.co/df5Vvgr/B884-FD3-B-FDE1-4152-81-AE-FF6-A401-D3-BC3.jpg"
+            alt="Zdjęcie pszenicy"
+          /><br />
+          <img
+            class="photographySection__photo js-photographySection__photo--canalPhoto"
+            src="https://i.ibb.co/1zGC9NH/09-BE0546-A491-44-AF-A0-D1-AC6-CB061-C479.jpg"
+            alt="Zdjęcie kanału w Wenecji"
+          />
+        </section>
+        <section class="airsoftSection js-airsoftSection" id="airsoft">
+          <h3 class="airsoftSection__header">Airsoft</h3>
+          <div class="airsoftSection__text">
+            <p class="airsoftSection__paragraph">
+              Moja przygoda z Airsoftem zaczęła się od wyjazdu na kolonie
+              przygodowe, gdzie pierwszy raz miałem styczność z tą grą. Wówczas
+              bardzo mi się spodobała i szybko stała się moją co niedzielną
+              aktywnością.
+            </p>
+            <img
+              class="airsoftSection__photo"
+              src="https://i.ibb.co/9nFv1xc/9578-AB4-E-B84-E-405-A-A475-BC115-A2-D10-C6.jpg"
+              alt="Airsoft"
+            />
+          </div>
+        </section>
+      </section>
     </main>
     <footer class="footer">
-        © Copyright 2022 - wszelkie prawa zastrzeżone
+      © Copyright 2022 - wszelkie prawa zastrzeżone
     </footer>
-</body>
-
+  </body>
 </html>
